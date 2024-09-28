@@ -16,9 +16,9 @@ A simple Node.js server to handle HTTP requests and serve static HTML files.
 ```bash
 .
 ├── public
-│   ├── index.html        # Homepage
+│   ├── 404.html          # Homepage
 │   ├── about.html        # About page
 │   ├── contact-me.html   # Contact page
-│   └── 404.html          # 404 Error page
+│   └── index.html        # 404 Error page
 ├── server.js             # Main server file
 └── README.md             # Project documentation

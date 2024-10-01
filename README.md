@@ -20,7 +20,6 @@ This is a basic Node.js web server that serves static HTML pages for different r
     ├── about.html         # About page
     ├── contact-me.html    # Contact page
     ├── index.html         # Homepage
-.env                       # Environment variables (e.g., PORT)
 server.js                  # Server logic
 package.json               # Project dependencies and scripts
 ```
@@ -44,17 +43,25 @@ package.json               # Project dependencies and scripts
    npm install
    ```
 
-3. **Run the server**:
+3. **Create a `.env` file**:
+
+   Create a `.env` file in the project root and add the following line:
+
+   ```bash
+    PORT= # set your desired port number
+   ```
+
+4. **Run the server**:
 
    ```bash
    npm start
    ```
 
-   The server will start on `http://localhost:8080`.
+   The server will start on `http://localhost:your-port-number`.
 
 ## Usage
 
-- Visit `http://localhost:8080` for the homepage.
+- Visit `http://localhost:your-port-number` for the homepage.
 - Navigate to `/about` for the about page.
 - Navigate to `/contact` for the contact page.
 - Any non-existent routes will display the custom 404 page.

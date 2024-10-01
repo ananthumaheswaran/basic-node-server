@@ -28,13 +28,6 @@ package.json               # Project dependencies and scripts
 ## Prerequisites
 
 - Node.js installed on your machine.
-- A `.env` file with the following content:
-
-```
-PORT=8080
-```
-
-Make sure the `.env` file is added to `.gitignore` so that it is not pushed to version control.
 
 ## Installation
 
@@ -51,15 +44,7 @@ Make sure the `.env` file is added to `.gitignore` so that it is not pushed to v
    npm install
    ```
 
-3. **Create a `.env` file**:
-
-   Create a `.env` file in the project root and add the following line:
-
-   ```bash
-   PORT=8080
-   ```
-
-4. **Run the server**:
+3. **Run the server**:
 
    ```bash
    npm start
